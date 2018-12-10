@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+Zad4/.vs
+Zad4/obj/
+Zad4/bin/
+
+
