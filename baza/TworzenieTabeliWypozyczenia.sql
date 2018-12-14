@@ -11,7 +11,7 @@ GO
 CREATE TABLE [dbo].[wypozyczenia](
 	[id_w] [int] NOT NULL,
 	[sygnatura] [nchar](25) NOT NULL,
-	[id_czytelnika] [int] NOT NULL,
+	[id_czytelnika] [int] NULL,
 	[tytul_ksiazki] [nchar](50) NOT NULL,
 	[autor] [nchar](50) NULL,
 	[gatunek] [nchar](25) NULL,
