@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Linq2Sql">
+  <DataContextMoniker Name="/Linq2SqlDataContext" />
+  <nestedChildShapes>
+    <classShape Id="0f94563b-d020-419e-b85e-106e3691fe3d" absoluteBounds="7.375, 1, 2, 1.9631982421875">
+      <DataClassMoniker Name="/Linq2SqlDataContext/czytelnicy" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1a3830c0-23e3-4e18-8bc7-a99fb3bc170a" absoluteBounds="7.39, 1.46, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="31d2c67f-948e-42ff-830a-23aa0ec17179" absoluteBounds="2.75, 0.75, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/Linq2SqlDataContext/Ksiazki" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c033c7d2-aba4-4cd1-9969-eae3dd5271f8" absoluteBounds="2.7650000000000006, 1.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f6998f29-5b19-41b5-bd3b-9d1c522cd1f7" absoluteBounds="4.875, 2.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/Linq2SqlDataContext/wypozyczenia" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ce89e536-1c33-4854-981b-4dc26fbb8933" absoluteBounds="4.89, 3.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.375 : 1.98159912109375); (5.875 : 1.98159912109375); (5.875 : 2.75)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Linq2SqlDataContext/czytelnicy/czytelnicy_wypozyczenia" />
+      <nodes>
+        <classShapeMoniker Id="0f94563b-d020-419e-b85e-106e3691fe3d" />
+        <classShapeMoniker Id="f6998f29-5b19-41b5-bd3b-9d1c522cd1f7" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.75 : 2.52089680989583); (4.875 : 2.75)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Linq2SqlDataContext/Ksiazki/Ksiazki_wypozyczenia" />
+      <nodes>
+        <classShapeMoniker Id="31d2c67f-948e-42ff-830a-23aa0ec17179" />
+        <classShapeMoniker Id="f6998f29-5b19-41b5-bd3b-9d1c522cd1f7" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

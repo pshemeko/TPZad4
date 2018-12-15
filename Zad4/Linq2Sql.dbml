@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="AJPO" Class="Linq2SqlDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=PRZEMO-KOMPUTER\MOJSERWER;Initial Catalog=AJPO;Integrated Security=True" SettingsObjectName="Zad4.Properties.Settings" SettingsPropertyName="AJPOConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.czytelnicy" Member="czytelnicy">
+    <Type Name="czytelnicy">
+      <Column Name="id_czytelnika" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nazwisko" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="imie" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="pesel" Type="System.String" DbType="NChar(11)" CanBeNull="true" />
+      <Column Name="plec" Type="System.Char" DbType="NChar(1)" CanBeNull="true" />
+      <Column Name="telefon" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Association Name="czytelnicy_wypozyczenia" Member="wypozyczenia" ThisKey="id_czytelnika" OtherKey="id_czytelnika" Type="wypozyczenia" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Ksiazki" Member="Ksiazki">
+    <Type Name="Ksiazki">
+      <Column Name="sygnatura" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tytul" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="autor" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="cena" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="gatunek" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Association Name="Ksiazki_wypozyczenia" Member="wypozyczenia" ThisKey="sygnatura" OtherKey="sygnatura" Type="wypozyczenia" />
+    </Type>
+  </Table>
+  <Table Name="dbo.wypozyczenia" Member="wypozyczenia">
+    <Type Name="wypozyczenia">
+      <Column Name="id_w" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="sygnatura" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="id_czytelnika" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="kara" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Association Name="czytelnicy_wypozyczenia" Member="czytelnicy" ThisKey="id_czytelnika" OtherKey="id_czytelnika" Type="czytelnicy" IsForeignKey="true" />
+      <Association Name="Ksiazki_wypozyczenia" Member="Ksiazki" ThisKey="sygnatura" OtherKey="sygnatura" Type="Ksiazki" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

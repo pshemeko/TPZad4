@@ -227,6 +227,7 @@ namespace WpfApp1
             UpdateProductReviewCommand = new DelegateCommand(EditProductReview);
             DodajCzytelnikaCommand = new DelegateCommand(DodajCzytelnika);
             DodajOknoDodawaniaKlienta = new DelegateCommand(FunkcjaDoOkna);
+            czytelniki = new ObservableCollection<czytelnicy>();
         }
 
         private void EditProductReview()
