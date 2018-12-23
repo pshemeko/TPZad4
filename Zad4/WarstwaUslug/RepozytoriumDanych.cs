@@ -16,7 +16,7 @@ namespace WarstwaUslug
             set => dataContex = value;
         }
 
-        public static void StworzWyporzyczenie(Wypozyczenia wyp)
+        public static void CreateWyporzyczenie(Wypozyczenia wyp)
         {
             dataContex.Wypozyczenia.InsertOnSubmit(wyp);
             try
@@ -29,7 +29,7 @@ namespace WarstwaUslug
             }
         }
 
-        public static void StworzCzytelnika(Czytelnicy czyt)
+        public static void CreateCzytelnika(Czytelnicy czyt)
         {
             dataContex.Czytelnicy.InsertOnSubmit(czyt);
             try
@@ -56,7 +56,7 @@ namespace WarstwaUslug
             return c;
         }
 
-        public static void DeleteWypozyczenie(int id)
+        public static void DeleteWypozyczeniePoID(int id)
         {
             var daneSkasuj = (from wypozyczenie in dataContex.Wypozyczenia
                               where wypozyczenie.ID_wypozyczenia == id
