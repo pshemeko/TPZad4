@@ -3,27 +3,27 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ServiceLayer;
+using WarstwaUslug;
 
 namespace Zadanie4.Model
 {
     public class DataLayer
     {
-        public IEnumerable<ProductReview> ProductReviews
+        public IEnumerable<Wypozyczenia> Wypozyczenia
         {
             get
             {
-                List<ProductReview> reviews = DataRepository.GetAllProductReviews();
-                return reviews;
+                List<Wypozyczenia> wypozyczenia = RepozytoriumDanych.GetAllWyporzyczenia();
+                return wypozyczenia;
             }
         }
 
-        public IEnumerable<Product> Products
+        public IEnumerable<Czytelnicy> Czytelnicy
         {
             get
             {
-                List<Product> products = DataRepository.GetAllProducts();
-                return products;
+                List<Czytelnicy> czytelnicy = RepozytoriumDanych.GetAllCzytelnicy();
+                return czytelnicy;
             }
         }
     }
