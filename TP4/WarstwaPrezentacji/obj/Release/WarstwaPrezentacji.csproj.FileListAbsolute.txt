@@ -54,3 +54,35 @@ D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\WarstwaPrezentacji\obj\R
 D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\WarstwaPrezentacji\obj\Release\WarstwaPrezentacji.csproj.CopyComplete
 D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\WarstwaPrezentacji\obj\Release\WarstwaPrezentacji.exe
 D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\WarstwaPrezentacji\obj\Release\WarstwaPrezentacji.pdb
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaPrezentacji\obj\Release\WarstwaPrezentacji.csprojAssemblyReference.cache
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaPrezentacji\obj\Release\View\MainWindow.g.cs
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaPrezentacji\obj\Release\App.g.cs
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaPrezentacji\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaPrezentacji\obj\Release\WarstwaPrezentacji_MarkupCompile.cache
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaPrezentacji\obj\Release\WarstwaPrezentacji_MarkupCompile.lref
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaPrezentacji\obj\Release\WarstwaPrezentacji.pdb
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaPrezentacji\bin\Release\WarstwaPrezentacji.exe.config
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaPrezentacji\bin\Release\WarstwaPrezentacji.exe
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaPrezentacji\bin\Release\WarstwaPrezentacji.pdb
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaPrezentacji\bin\Release\CommonServiceLocator.dll
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaPrezentacji\bin\Release\Prism.dll
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaPrezentacji\bin\Release\Prism.Wpf.dll
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaPrezentacji\bin\Release\System.Windows.Interactivity.dll
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaPrezentacji\bin\Release\WarstwaUslug.dll
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaPrezentacji\bin\Release\WarstwaUslug.pdb
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaPrezentacji\bin\Release\WarstwaUslug.dll.config
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaPrezentacji\bin\Release\Prism.pdb
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaPrezentacji\bin\Release\Prism.xml
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaPrezentacji\bin\Release\Prism.Wpf.pdb
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaPrezentacji\bin\Release\Prism.Wpf.xml
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaPrezentacji\obj\Release\View\MainWindow.baml
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaPrezentacji\obj\Release\WarstwaPrezentacji.g.resources
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaPrezentacji\obj\Release\WarstwaPrezentacji.Properties.Resources.resources
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaPrezentacji\obj\Release\WarstwaPrezentacji.csproj.GenerateResource.cache
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaPrezentacji\obj\Release\WarstwaPrezentacji.csproj.CoreCompileInputs.cache
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaPrezentacji\obj\Release\WarstwaPrezentacji.csproj.CopyComplete
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaPrezentacji\obj\Release\WarstwaPrezentacji.exe
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaPrezentacji\obj\Release\App.baml
+D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\WarstwaPrezentacji\obj\Release\View\NowyCzytelnikOkno.g.cs
+D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\WarstwaPrezentacji\obj\Release\App.baml
+D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\WarstwaPrezentacji\obj\Release\View\NowyCzytelnikOkno.baml

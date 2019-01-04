@@ -38,3 +38,6 @@ D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\TestWarstwyUslug\obj\Rel
 D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\TestWarstwyUslug\obj\Release\TestWarstwyUslug.csproj.CopyComplete
 D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\TestWarstwyUslug\obj\Release\TestWarstwyUslug.dll
 D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\TestWarstwyUslug\obj\Release\TestWarstwyUslug.pdb
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\TestWarstwyUslug\obj\Release\TestWarstwyUslug.csprojAssemblyReference.cache
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\TestWarstwyUslug\obj\Release\TestWarstwyUslug.csproj.CoreCompileInputs.cache
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\TestWarstwyUslug\obj\Release\TestWarstwyUslug.pdb

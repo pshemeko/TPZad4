@@ -29,6 +29,19 @@ namespace WarstwaUslug
             }
         }
 
+        public static void CreateCzytelnik(Czytelnicy v)
+        {
+            dataContext.Czytelnicy.InsertOnSubmit(v);
+            try
+            {
+                dataContext.SubmitChanges();
+            }
+            catch (Exception e)
+            {
+
+            }
+        }
+
         public static void DeleteWypozyczeniaPoId(int id)
         {
             var WypozyczenieDoSkasowania =
@@ -50,6 +63,29 @@ namespace WarstwaUslug
 
             }
         }
+
+        public static void DeleteCzytelnikId(int id)
+        {
+            var CzytelnikDoSkasowania =
+                (from review in dataContext.Czytelnicy
+                 where review.ID_czytelnika == id
+                 select review).First();
+
+            if (CzytelnikDoSkasowania != null)
+            {
+                DataContext.Czytelnicy.DeleteOnSubmit(CzytelnikDoSkasowania);
+            }
+
+            try
+            {
+                dataContext.SubmitChanges();
+            }
+            catch (Exception e)
+            {
+
+            }
+        }
+
 
         public static List<Wypozyczenia> GetAllWypozyczenia()
         {

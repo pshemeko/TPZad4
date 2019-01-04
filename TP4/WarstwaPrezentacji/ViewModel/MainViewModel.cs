@@ -10,7 +10,7 @@ using Prism.Commands;
 using Prism.Mvvm;
 using WarstwaUslug;
 using WarstwaPrezentacji.Model;
-//using WarstwaPrezentacji.View;
+using WarstwaPrezentacji.View;
 
 namespace WarstwaPrezentacji.ViewModel
 {
@@ -89,6 +89,89 @@ namespace WarstwaPrezentacji.ViewModel
             }
         }
 
+        // DANE CZYTELNIKA
+
+        /// <summary>
+        /// dane czytelnikow
+        /// </summary>
+        /// 
+        private int noweID_Czytelnika;
+
+        public int NoweID_Czytelnika
+        {
+            get => noweID_Czytelnika;
+            set
+            {
+                noweID_Czytelnika = value;
+                RaisePropertyChanged();
+            }
+        }
+
+
+        private string noweNazwisko;
+
+        public string NoweNazwisko
+        {
+            get => noweNazwisko;
+            set
+            {
+                noweNazwisko = value;
+                RaisePropertyChanged();
+            }
+        }
+
+        private string noweImie;
+
+        public string NoweImie
+        {
+            get => noweImie;
+            set
+            {
+                noweImie = value;
+                RaisePropertyChanged();
+            }
+        }
+
+        private string nowePesel;
+
+        public string NowePesel
+        {
+            get => nowePesel;
+            set
+            {
+                nowePesel = value;
+                RaisePropertyChanged();
+            }
+        }
+
+
+        private char nowePlec;
+
+        public char NowePlec
+        {
+            get => nowePlec;
+            set
+            {
+                nowePlec = value;
+                RaisePropertyChanged();
+            }
+        }
+
+
+        private string noweTelefon;
+
+        public string NoweTelefon
+        {
+            get => noweTelefon;
+            set
+            {
+                noweTelefon = value;
+                RaisePropertyChanged();
+            }
+        }
+
+
+
         public ObservableCollection<Wypozyczenia> WypozyczeniaCzytelnikow
         {
             get => wypozyczenie;
@@ -134,9 +217,15 @@ namespace WarstwaPrezentacji.ViewModel
 
         public DelegateCommand AddWypozyczenieCommand { get; private set; }
 
+        public DelegateCommand AddCzytelnikCommand { get; private set; }
+
         public DelegateCommand DeleteWypozyczenieCommand { get; private set; }
 
+        public DelegateCommand DeleteCzytelnikCommand { get; private set; }
+
         public DelegateCommand UpdateWypozyczenieCommand { get; private set; }
+
+        public DelegateCommand AddWindowCzytelnikaDodaj { get; private set; }
 
         public MainViewModel()
         {
@@ -144,8 +233,12 @@ namespace WarstwaPrezentacji.ViewModel
             dataLayer = new DataLayer();
             GetDataCommand = new DelegateCommand(() => DataLayer = new DataLayer());
             AddWypozyczenieCommand = new DelegateCommand(AddWypozyczenie);
+            AddCzytelnikCommand = new DelegateCommand(AddCzytelnik);
             DeleteWypozyczenieCommand = new DelegateCommand(DeleteWypozyczenie);
+            DeleteCzytelnikCommand = new DelegateCommand(DeleteCzytelnik);
             UpdateWypozyczenieCommand = new DelegateCommand(EditWypozyczenie);
+
+            AddWindowCzytelnikaDodaj = new DelegateCommand(AddWindowCzytelnika);
         }
 
         private void EditWypozyczenie()
@@ -158,6 +251,19 @@ namespace WarstwaPrezentacji.ViewModel
             Task.Run(() => { DataRepository.DeleteWypozyczeniaPoId(biezaceWypozyczenie.ID_wypozyczenia); });
             wypozyczenie.Remove(biezaceWypozyczenie);
         }
+
+        private void DeleteCzytelnik()
+        {
+            Task.Run(() => { DataRepository.DeleteCzytelnikId(biezacyCzytelnik.ID_czytelnika); });
+            czytelnik.Remove(biezacyCzytelnik);
+        }
+
+        private void AddWindowCzytelnika()
+        {
+            NowyCzytelnikOkno noweOkno = new NowyCzytelnikOkno();
+            noweOkno.Show();
+        }
+
 
         private void AddWypozyczenie()
         {
@@ -179,5 +285,32 @@ namespace WarstwaPrezentacji.ViewModel
             }
             else MessageBox.Show("Podane dane wypozyczenia nie mogą zostać przekazane do bazy danych", "Błąd");
         }
+
+        
+        private void AddCzytelnik()
+        {
+            if (noweNazwisko.Length <= 50 && noweImie.Length <= 50 && nowePesel.Length <= 50 &&
+                 noweTelefon.Length <= 50  )//&& !DataRepository.IsCzytelnicyIdValid(newCzytelnikID))
+            {
+                Czytelnicy pr = new Czytelnicy()
+                {
+                    ID_czytelnika = newCzytelnikID,
+                    Nazwisko = noweNazwisko,
+                    Imie = noweImie,
+                    Pesel = nowePesel,
+                    Telefon = noweTelefon,
+                    Plec = nowePlec
+
+                };
+
+                int a;
+                a = 5;
+                czytelnik.Add(pr);
+                Task.Run(() => { DataRepository.CreateCzytelnik(pr); });
+            }
+            else MessageBox.Show("Podane dane Czytelnika nie mogą zostać przekazane do bazy danych", "Błąd");
+            
+        }
+
     }
 }
