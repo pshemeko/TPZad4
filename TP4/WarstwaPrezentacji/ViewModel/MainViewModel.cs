@@ -239,6 +239,8 @@ namespace WarstwaPrezentacji.ViewModel
             DeleteWypozyczenieCommand = new DelegateCommand(DeleteWypozyczenie);
             DeleteCzytelnikCommand = new DelegateCommand(DeleteCzytelnik);
             UpdateWypozyczenieCommand = new DelegateCommand(EditWypozyczenie);
+            czytelnik = new ObservableCollection<Czytelnicy>();
+            wypozyczenie = new ObservableCollection<Wypozyczenia>();
 
             AddWindowCzytelnikaDodaj = new DelegateCommand(AddWindowCzytelnika);
             AddWindowWypozyczenieDodaj = new DelegateCommand(AddWindowWypozyczenie);
@@ -300,11 +302,11 @@ namespace WarstwaPrezentacji.ViewModel
         private void AddCzytelnik()
         {
             if (noweNazwisko.Length <= 50 && noweImie.Length <= 50 && nowePesel.Length <= 50 &&
-                 noweTelefon.Length <= 50  )//&& !DataRepository.IsCzytelnicyIdValid(newCzytelnikID))
+                 noweTelefon.Length <= 50  && !DataRepository.IsCzytelnicyIdValid(newCzytelnikID))
             {
                 Czytelnicy pr = new Czytelnicy()
                 {
-                    //ID_czytelnika = newCzytelnikID,
+                    ID_czytelnika = newCzytelnikID,
                     Nazwisko = noweNazwisko,
                     Imie = noweImie,
                     Pesel = nowePesel,
