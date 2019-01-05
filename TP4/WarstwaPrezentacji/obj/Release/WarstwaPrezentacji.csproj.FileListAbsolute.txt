@@ -86,3 +86,5 @@ C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_
 D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\WarstwaPrezentacji\obj\Release\View\NowyCzytelnikOkno.g.cs
 D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\WarstwaPrezentacji\obj\Release\App.baml
 D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\WarstwaPrezentacji\obj\Release\View\NowyCzytelnikOkno.baml
+D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\WarstwaPrezentacji\obj\Release\View\NoweWypozyczenie.g.cs
+D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\WarstwaPrezentacji\obj\Release\View\NoweWypozyczenie.baml

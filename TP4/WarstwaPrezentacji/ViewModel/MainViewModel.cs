@@ -227,6 +227,8 @@ namespace WarstwaPrezentacji.ViewModel
 
         public DelegateCommand AddWindowCzytelnikaDodaj { get; private set; }
 
+        public DelegateCommand AddWindowWypozyczenieDodaj { get; private set; }
+
         public MainViewModel()
         {
 
@@ -239,6 +241,7 @@ namespace WarstwaPrezentacji.ViewModel
             UpdateWypozyczenieCommand = new DelegateCommand(EditWypozyczenie);
 
             AddWindowCzytelnikaDodaj = new DelegateCommand(AddWindowCzytelnika);
+            AddWindowWypozyczenieDodaj = new DelegateCommand(AddWindowWypozyczenie);
         }
 
         private void EditWypozyczenie()
@@ -263,6 +266,13 @@ namespace WarstwaPrezentacji.ViewModel
             NowyCzytelnikOkno noweOkno = new NowyCzytelnikOkno();
             noweOkno.Show();
         }
+        
+        private void AddWindowWypozyczenie()
+        {
+            NoweWypozyczenie noweOkno2 = new NoweWypozyczenie();
+            noweOkno2.Show();
+        }
+
 
 
         private void AddWypozyczenie()
@@ -273,11 +283,11 @@ namespace WarstwaPrezentacji.ViewModel
                 Wypozyczenia pr = new Wypozyczenia()
                 {
                     ID_czytelnika = newCzytelnikID,
+                    Sygnatura = newSygnatura,
+                    Tytul_ksiazki = newTytul_ksiazki,
                     Autor = newAutor,
                     Gatunek = newGatunek,
-                    Kara = newKara,
-                    Sygnatura = newSygnatura,
-                    Tytul_ksiazki = newTytul_ksiazki
+                    Kara = newKara                    
 
                 };
                 wypozyczenie.Add(pr);
@@ -294,12 +304,12 @@ namespace WarstwaPrezentacji.ViewModel
             {
                 Czytelnicy pr = new Czytelnicy()
                 {
-                    ID_czytelnika = newCzytelnikID,
+                    //ID_czytelnika = newCzytelnikID,
                     Nazwisko = noweNazwisko,
                     Imie = noweImie,
                     Pesel = nowePesel,
-                    Telefon = noweTelefon,
-                    Plec = nowePlec
+                    Plec = nowePlec,
+                    Telefon = noweTelefon                    
 
                 };
 
