@@ -12,8 +12,8 @@ CREATE TABLE [dbo].[wypozyczenia](
 	[id_w] [int] NOT NULL,
 	[sygnatura] [nchar](25) NOT NULL,
 	[id_czytelnika] [int] NOT NULL,
-	[tytul_ksiazki] [nchar](50) NOT NULL,
-	[autor] [nchar](50) NULL,
+	[tytul_ksiazki] [nchar](20) NOT NULL,
+	[autor] [nchar](25) NULL,
 	[gatunek] [nchar](25) NULL,
 	[kara] [float] NULL,
  CONSTRAINT [PK_wypozyczenia_1] PRIMARY KEY CLUSTERED 

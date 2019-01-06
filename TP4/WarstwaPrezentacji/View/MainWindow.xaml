@@ -55,7 +55,7 @@
             <TextBox HorizontalAlignment="Left" Text="{Binding BiezaceWypozyczenie.Gatunek}"        Height="49" Margin="326,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
             <TextBox HorizontalAlignment="Left" Text="{Binding BiezaceWypozyczenie.Kara}"           Height="49" Margin="326,245,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
             <Button Content="Zapisz zmiany" Command="{Binding UpdateWypozyczenieCommand}" HorizontalAlignment="Left" Margin="265,1,0,0" Grid.Row="1" VerticalAlignment="Top" Width="262" Height="59"/>
-            <ListBox ItemsSource="{Binding Czytelnik}" SelectedItem="{Binding BiezacyCzytelnik}" HorizontalAlignment="Left" Height="299" Margin="527,0,0,0" VerticalAlignment="Top" Width="265">
+            <ListBox ItemsSource="{Binding Czytelnik}" SelectedItem="{Binding BiezacyCzytelnik}" HorizontalAlignment="Left" Height="300" Margin="527,0,0,0" VerticalAlignment="Top" Width="265">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal">

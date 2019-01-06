@@ -279,8 +279,8 @@ namespace WarstwaPrezentacji.ViewModel
 
         private void AddWypozyczenie()
         {
-            if (newSygnatura.Length <= 50 && newTytul_ksiazki.Length <= 50 && newAutor.Length <= 50 &&
-                newKara >= 0 && newGatunek.Length <= 50 && DataRepository.IsCzytelnicyIdValid(newCzytelnikID))
+            if (newSygnatura.Length <= 25 && newTytul_ksiazki.Length <= 20 && newAutor.Length <= 25 &&
+                newKara >= 0 && newGatunek.Length <= 25 && DataRepository.IsCzytelnicyIdValid(newCzytelnikID))
             {
                 Wypozyczenia pr = new Wypozyczenia()
                 {
@@ -301,8 +301,8 @@ namespace WarstwaPrezentacji.ViewModel
         
         private void AddCzytelnik()
         {
-            if (noweNazwisko.Length <= 50 && noweImie.Length <= 50 && nowePesel.Length <= 50 &&
-                 noweTelefon.Length <= 50  && !DataRepository.IsCzytelnicyIdValid(newCzytelnikID))
+            if (noweNazwisko.Length <= 20 && noweImie.Length <= 11 && nowePesel.Length <= 11 &&
+                 noweTelefon.Length <= 16  && !DataRepository.IsCzytelnicyIdValid(newCzytelnikID))
             {
                 Czytelnicy pr = new Czytelnicy()
                 {

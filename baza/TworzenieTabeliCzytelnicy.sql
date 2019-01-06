@@ -10,8 +10,8 @@ GO
 
 CREATE TABLE [dbo].[czytelnicy](
 	[id_czytelnika] [int] NOT NULL,
-	[nazwisko] [nchar](50) NULL,
-	[imie] [nchar](50) NULL,
+	[nazwisko] [nchar](20) NULL,
+	[imie] [nchar](11) NULL,
 	[pesel] [nchar](11) NULL,
 	[plec] [nchar](1) NULL,
 	[telefon] [nchar](16) NULL,
