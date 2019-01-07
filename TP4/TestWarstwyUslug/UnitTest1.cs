@@ -1,4 +1,4 @@
-﻿//using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using WarstwaUslug;
 using System;
 using System.Collections.Generic;
@@ -8,53 +8,54 @@ using System.Threading.Tasks;
 
 namespace TestWarstwyUslug
 {
-   // [TestClass]
+    [TestClass]
     public class UnitTest1
     {
 
-        /*
+        
         [TestInitialize]
         public void TestInitialize()
         {
-            RepozytoriumDanych.DataContex = new BazaDanychDataContext();
+            DataRepository.DataContext = new DataBaseDataContext();
         }
 
         [TestMethod()]
         public void GetAllWyporzyczeniaTest()
         {
-            var lista = RepozytoriumDanych.GetAllWyporzyczenia().Select(v => v.ID_wypozyczenia);
+            var lista = DataRepository.GetAllWypozyczenia().Select(v => v.ID_wypozyczenia);
 
-            Assert.AreEqual(4, lista.Count());
-            Assert.IsTrue(lista.Contains(1));
+            Assert.AreEqual(6, lista.Count());
+            //Assert.IsTrue(lista.Contains(1));
             Assert.IsTrue(lista.Contains(2));
             Assert.IsTrue(lista.Contains(3));
             Assert.IsTrue(lista.Contains(4));
+            Assert.IsTrue(lista.Contains(5));
         }
 
         [TestMethod()]
         public void CreateWyporzyczenieTest()
         {
-            int ilosc1 = RepozytoriumDanych.GetAllWyporzyczenia().Count();
+            int ilosc1 = DataRepository.GetAllWypozyczenia().Count();
 
             Wypozyczenia w = new Wypozyczenia()
             {
-                ID_wypozyczenia = 200, // chyba nie trzeba
+               // ID_wypozyczenia = 200, // chyba nie trzeba
                 ID_czytelnika = 2,
+                Sygnatura = "ISBN454-3424-424-2443-3",
+                Tytul_ksiazki = "Ja jako byly",
                 Autor = "Jan",
                 Gatunek = "Popularno-Naukowy",
-                Kara = 0.0,
-                Sygnatura = "ISBN 454-3424-424-2443-3",
-                Tytul_ksiazki = "Ja jako byly"
+                Kara = 0.0
             };
 
-            RepozytoriumDanych.CreateWyporzyczenie(w);
+            DataRepository.CreateWypozyczenia(w);
 
-            int ilosc2 = RepozytoriumDanych.GetAllWyporzyczenia().Count;
+            int ilosc2 = DataRepository.GetAllWypozyczenia().Count;
 
             Assert.AreNotEqual(ilosc1, ilosc2);
 
             // czyszczenie bazy
-            RepozytoriumDanych.DeleteWypozyczeniePoID(w.ID_wypozyczenia);
+            DataRepository.DeleteWypozyczeniaPoId(w.ID_wypozyczenia);
 
         }
 
@@ -68,23 +69,23 @@ namespace TestWarstwyUslug
                 Autor = "Jan",
                 Gatunek = "Popularno-Naukowy",
                 Kara = 0.0,
-                Sygnatura = "ISBN 454-3424-424-2443-3",
+                Sygnatura = "ISBN454-3424-424-2443-3",
                 Tytul_ksiazki = "Ja jako byly"
             };
 
-            RepozytoriumDanych.CreateWyporzyczenie(w);
+            DataRepository.CreateWypozyczenia(w);
 
-            int ilosc1 = RepozytoriumDanych.GetAllWyporzyczenia().Count();
+            int ilosc1 = DataRepository.GetAllWypozyczenia().Count();
 
-            RepozytoriumDanych.DeleteWypozyczeniePoID(w.ID_wypozyczenia);
+            DataRepository.DeleteWypozyczeniaPoId(w.ID_wypozyczenia);
 
-            int ilosc2 = RepozytoriumDanych.GetAllWyporzyczenia().Count;
+            int ilosc2 = DataRepository.GetAllWypozyczenia().Count;
 
             Assert.AreNotEqual(ilosc1, ilosc2);
         }
 
         [TestMethod()]
-        public void UpdateVendorTest()
+        public void UpdateTest()
         {
             Wypozyczenia w = new Wypozyczenia()
             {
@@ -93,27 +94,27 @@ namespace TestWarstwyUslug
                 Autor = "Jan",
                 Gatunek = "Popularno-Naukowy",
                 Kara = 0.0,
-                Sygnatura = "ISBN 454-3424-424-2443-3",
+                Sygnatura = "ISBN454-3424-424-2443-3",
                 Tytul_ksiazki = "Ja jako byly"
             };
 
-            RepozytoriumDanych.CreateWyporzyczenie(w);
+            DataRepository.CreateWypozyczenia(w);
 
             w.Autor = "noweImie";
 
-            RepozytoriumDanych.UpdateWypozyczenia(w);
+            DataRepository.UpdateWypozyczenia(w);
 
-            List<Wypozyczenia> toTestList = RepozytoriumDanych.GetAllWyporzyczenia();
+            List<Wypozyczenia> toTestList = DataRepository.GetAllWypozyczenia();
 
             Assert.AreEqual(toTestList.Last().Autor, "noweImie");
 
             // czyszczenie bazy
-            RepozytoriumDanych.DeleteWypozyczeniePoID(w.ID_wypozyczenia);
+            DataRepository.DeleteWypozyczeniaPoId(w.ID_wypozyczenia);
         }
 
 
 
 
-    */
+   
     }
 }

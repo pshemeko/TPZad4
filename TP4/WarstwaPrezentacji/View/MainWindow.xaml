@@ -42,20 +42,20 @@
 
             <Button Content="Pobierz Dane" Command="{Binding GetDataCommand}" HorizontalAlignment="Right" Margin="0,0,265,0" Grid.Row="2" VerticalAlignment="Top" Width="527" Height="60"/>
             <Button Content="Usun Wypozyczenie" Command="{Binding DeleteWypozyczenieCommand}" HorizontalAlignment="Left" Margin="0,1,0,0" Grid.Row="1" VerticalAlignment="Top" Width="265" Height="57"/>
-            <Label Content="ID Czytelnika" HorizontalAlignment="Left" Margin="261,0,0,0" VerticalAlignment="Top" Height="49" Width="65"/>
-            <Label Content="Sygnatura" HorizontalAlignment="Left" Margin="265,49,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.632,2.692" Height="49" Width="61"/>
-            <Label Content="Tytul książki" HorizontalAlignment="Left" Margin="265,98,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,0.462" Height="49" Width="61"/>
-            <Label Content="Autor" HorizontalAlignment="Left" Margin="265,147,0,0" VerticalAlignment="Top" Height="49" Width="61"/>
-            <Label Content="Gatunek" HorizontalAlignment="Left" Margin="265,196,0,0" VerticalAlignment="Top" Height="42" Width="61"/>
-            <Label Content="Kara" HorizontalAlignment="Left" Margin="265,250,0,0" VerticalAlignment="Top" Height="49" Width="61"/>
-            <TextBox HorizontalAlignment="Left" Text="{Binding BiezaceWypozyczenie.ID_czytelnika}"  Height="49" Margin="326,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
-            <TextBox HorizontalAlignment="Left" Text="{Binding BiezaceWypozyczenie.Sygnatura}"      Height="49" Margin="326,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
-            <TextBox HorizontalAlignment="Left" Text="{Binding BiezaceWypozyczenie.Tytul_ksiazki}"  Height="49" Margin="326,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
-            <TextBox HorizontalAlignment="Left" Text="{Binding BiezaceWypozyczenie.Autor}"          Height="49" Margin="326,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
-            <TextBox HorizontalAlignment="Left" Text="{Binding BiezaceWypozyczenie.Gatunek}"        Height="49" Margin="326,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
-            <TextBox HorizontalAlignment="Left" Text="{Binding BiezaceWypozyczenie.Kara}"           Height="49" Margin="326,245,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
+            <Label Content="ID Czytelnika" HorizontalAlignment="Left" Margin="261,0,0,0" VerticalAlignment="Top" Height="49" Width="81"/>
+            <Label Content="Sygnatura" HorizontalAlignment="Left" Margin="265,49,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.632,2.692" Height="49" Width="77"/>
+            <Label Content="Tytul książki" HorizontalAlignment="Left" Margin="265,98,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,0.462" Height="49" Width="77"/>
+            <Label Content="Autor" HorizontalAlignment="Left" Margin="265,147,0,0" VerticalAlignment="Top" Height="49" Width="77"/>
+            <Label Content="Gatunek" HorizontalAlignment="Left" Margin="265,196,0,0" VerticalAlignment="Top" Height="49" Width="77"/>
+            <Label Content="Kara" HorizontalAlignment="Left" Margin="265,245,0,0" VerticalAlignment="Top" Height="54" Width="77"/>
+            <TextBox HorizontalAlignment="Left" Text="{Binding BiezaceWypozyczenie.ID_czytelnika}"  Height="49" Margin="342,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185"/>
+            <TextBox HorizontalAlignment="Left" Text="{Binding BiezaceWypozyczenie.Sygnatura}"      Height="49" Margin="342,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185"/>
+            <TextBox HorizontalAlignment="Left" Text="{Binding BiezaceWypozyczenie.Tytul_ksiazki}"  Height="49" Margin="342,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185"/>
+            <TextBox HorizontalAlignment="Left" Text="{Binding BiezaceWypozyczenie.Autor}"          Height="49" Margin="342,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185"/>
+            <TextBox HorizontalAlignment="Left" Text="{Binding BiezaceWypozyczenie.Gatunek}"        Height="49" Margin="342,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185"/>
+            <TextBox HorizontalAlignment="Left" Text="{Binding BiezaceWypozyczenie.Kara}"           Height="51" Margin="342,245,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185"/>
             <Button Content="Zapisz zmiany" Command="{Binding UpdateWypozyczenieCommand}" HorizontalAlignment="Left" Margin="265,1,0,0" Grid.Row="1" VerticalAlignment="Top" Width="262" Height="59"/>
-            <ListBox ItemsSource="{Binding Czytelnik}" SelectedItem="{Binding BiezacyCzytelnik}" HorizontalAlignment="Left" Height="300" Margin="527,0,0,0" VerticalAlignment="Top" Width="265">
+            <ListBox ItemsSource="{Binding Czytelnik}" SelectedItem="{Binding BiezacyCzytelnik}" HorizontalAlignment="Left" Height="299" Margin="527,0,0,0" VerticalAlignment="Top" Width="265">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal">

@@ -29,3 +29,5 @@ D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\WarstwaPrezentacji\obj\D
 D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\WarstwaPrezentacji\obj\Debug\WarstwaPrezentacji.csproj.CopyComplete
 D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\WarstwaPrezentacji\obj\Debug\WarstwaPrezentacji.exe
 D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\WarstwaPrezentacji\obj\Debug\WarstwaPrezentacji.pdb
+D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\WarstwaPrezentacji\obj\Debug\View\NoweWypozyczenie.g.cs
+D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\WarstwaPrezentacji\obj\Debug\View\NoweWypozyczenie.baml

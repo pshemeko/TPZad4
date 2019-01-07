@@ -279,7 +279,7 @@ namespace WarstwaPrezentacji.ViewModel
 
         private void AddWypozyczenie()
         {
-            if (newSygnatura.Length <= 25 && newTytul_ksiazki.Length <= 20 && newAutor.Length <= 25 &&
+            if (newSygnatura.Length <= 23 && newTytul_ksiazki.Length <= 25 && newAutor.Length <= 25 &&
                 newKara >= 0 && newGatunek.Length <= 25 && DataRepository.IsCzytelnicyIdValid(newCzytelnikID))
             {
                 Wypozyczenia pr = new Wypozyczenia()
