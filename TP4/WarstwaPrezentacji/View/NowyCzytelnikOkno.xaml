@@ -21,23 +21,21 @@
             <RowDefinition Height="2*"/>
             <RowDefinition Height="2*"/>
             <RowDefinition Height="2*"/>
-            <RowDefinition Height="2*"/>
             <RowDefinition Height="3*"/>
         </Grid.RowDefinitions>
-        <DataGrid HorizontalAlignment="Left" Height="419" VerticalAlignment="Top" Width="792" Grid.RowSpan="7" Grid.ColumnSpan="2"/>
-        <Button Content="Dodaj Czytelnika" Command="{Binding AddCzytelnikCommand}" HorizontalAlignment="Left" Margin="0,0.267,0,-0.267" Grid.Row="6" VerticalAlignment="Top" Width="792" Height="84" Grid.ColumnSpan="2"/>
-        <Label Content="ID Czytelnika" HorizontalAlignment="Center" VerticalAlignment="Top" Height="56" Width="317"/>
-        <Label Content="Nazwisko" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Top" Height="56" Width="317"/>
-        <Label Content="Imie" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Top" Height="56" Width="317"/>
-        <Label Content="Pesel" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Top" Height="56" Width="317"/>
-        <Label Content="Plec" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Top" Height="56" Width="317"/>
-        <Label Content="Telefon" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Top" Height="56" Width="317"/>
-        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="56" TextWrapping="Wrap" Text="{Binding NoweID_Czytelnika}" VerticalAlignment="Top" Width="475"/>
-        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="56" Grid.Row="1" TextWrapping="Wrap" Text="{Binding NoweNazwisko}" VerticalAlignment="Top" Width="475"/>
-        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="56" Grid.Row="2" TextWrapping="Wrap" Text="{Binding NoweImie}" VerticalAlignment="Top" Width="475"/>
-        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="56" Grid.Row="3" TextWrapping="Wrap" Text="{Binding NowePesel}" VerticalAlignment="Top" Width="475"/>
-        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="56" Grid.Row="4" TextWrapping="Wrap" Text="{Binding NowePlec}" VerticalAlignment="Top" Width="475"/>
-        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="56" Grid.Row="5" TextWrapping="Wrap" Text="{Binding NoweTelefon}" VerticalAlignment="Top" Width="475"/>
+        <DataGrid HorizontalAlignment="Left" Height="419" VerticalAlignment="Top" Width="792" Grid.RowSpan="6" Grid.ColumnSpan="2"/>
+        <Button Content="Dodaj Czytelnika" Command="{Binding AddCzytelnikCommand}" HorizontalAlignment="Left" Grid.Row="5" VerticalAlignment="Top" Width="792" Height="84" Grid.ColumnSpan="2"/>
+        <Label Content="Nazwisko" HorizontalAlignment="Center" VerticalAlignment="Top" Height="66" Width="322" Margin="-5,0,0,0"/>
+        <Label Content="Imie" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Top" Height="65" Width="317" Grid.RowSpan="2"/>
+        <Label Content="Pesel" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Top" Height="64" Width="317" Margin="0,0.385,0,0"/>
+        <Label Content="Plec" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Top" Height="65" Width="317" Margin="0,64.385,0,0" Grid.RowSpan="3"/>
+        <Label Content="Telefon" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Top" Height="66" Width="317" Margin="0,0.154,0,0" Grid.RowSpan="2"/>
+
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="65" TextWrapping="Wrap" Text="{Binding NoweNazwisko}" VerticalAlignment="Top" Width="475"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="65" Grid.Row="1" TextWrapping="Wrap" Text="{Binding NoweImie}" VerticalAlignment="Top" Width="475" Grid.RowSpan="2"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="64" Grid.Row="2" TextWrapping="Wrap" Text="{Binding NowePesel}" VerticalAlignment="Top" Width="475" Margin="0,0.385,0,0"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="65" Grid.Row="2" TextWrapping="Wrap" Text="{Binding NowePlec}" VerticalAlignment="Top" Width="475" Margin="0,64.385,0,0" Grid.RowSpan="3"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="66" Grid.Row="4" TextWrapping="Wrap" Text="{Binding NoweTelefon}" VerticalAlignment="Top" Width="475" Margin="0,0.154,0,0" Grid.RowSpan="2"/>
     </Grid>
 
 </Window>
