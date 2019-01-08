@@ -13,7 +13,7 @@ namespace WarstwaPrezentacji.Model
         {
             get
             {
-                List<Wypozyczenia> reviews = DataRepository.GetAllWypozyczenia();
+                IEnumerable<Wypozyczenia> reviews = DataRepository.GetAllWypozyczenia();
                 return reviews;
             }
         }
@@ -22,7 +22,7 @@ namespace WarstwaPrezentacji.Model
         {
             get
             {
-                List<Czytelnicy> products = DataRepository.GetAllCzytelnicy();
+                IEnumerable<Czytelnicy> products = DataRepository.GetAllCzytelnicy();
                 return products;
             }
         }

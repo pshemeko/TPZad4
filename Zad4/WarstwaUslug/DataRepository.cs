@@ -87,7 +87,7 @@ namespace WarstwaUslug
         }
 
 
-        public static List<Wypozyczenia> GetAllWypozyczenia()
+        public static IEnumerable<Wypozyczenia> GetAllWypozyczenia()
         {
             List<Wypozyczenia> reviews = (from productReview in dataContext.Wypozyczenia
                                           select productReview).ToList();
@@ -114,7 +114,7 @@ namespace WarstwaUslug
             }
         }
 
-        public static List<Czytelnicy> GetAllCzytelnicy()
+        public static IEnumerable<Czytelnicy> GetAllCzytelnicy()
         {
             List<Czytelnicy> products = (from product in dataContext.Czytelnicy
                                          select product).ToList();

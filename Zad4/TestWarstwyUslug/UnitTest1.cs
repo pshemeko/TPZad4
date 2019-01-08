@@ -22,7 +22,7 @@ namespace TestWarstwyUslug
         [TestMethod()]
         public void GetAllWyporzyczeniaTest()
         {
-            var lista = DataRepository.GetAllWypozyczenia().Select(v => v.ID_wypozyczenia);
+            IEnumerable<int> lista = DataRepository.GetAllWypozyczenia().Select(v => v.ID_wypozyczenia);
 
             Assert.AreEqual(6, lista.Count());
             //Assert.IsTrue(lista.Contains(1));
@@ -50,7 +50,7 @@ namespace TestWarstwyUslug
 
             DataRepository.CreateWypozyczenia(w);
 
-            int ilosc2 = DataRepository.GetAllWypozyczenia().Count;
+            int ilosc2 = DataRepository.GetAllWypozyczenia().Count();
 
             Assert.AreNotEqual(ilosc1, ilosc2);
 
@@ -79,7 +79,7 @@ namespace TestWarstwyUslug
 
             DataRepository.DeleteWypozyczeniaPoId(w.ID_wypozyczenia);
 
-            int ilosc2 = DataRepository.GetAllWypozyczenia().Count;
+            int ilosc2 = DataRepository.GetAllWypozyczenia().Count();
 
             Assert.AreNotEqual(ilosc1, ilosc2);
         }
@@ -104,7 +104,7 @@ namespace TestWarstwyUslug
 
             DataRepository.UpdateWypozyczenia(w);
 
-            List<Wypozyczenia> toTestList = DataRepository.GetAllWypozyczenia();
+            IEnumerable<Wypozyczenia> toTestList = DataRepository.GetAllWypozyczenia();
 
             Assert.AreEqual(toTestList.Last().Autor, "noweImie");
 
