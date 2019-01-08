@@ -44,7 +44,7 @@ namespace WarstwaUslug
 
         public static void DeleteWypozyczeniaPoId(int id)
         {
-            var WypozyczenieDoSkasowania =
+            Wypozyczenia WypozyczenieDoSkasowania =
                 (from review in dataContext.Wypozyczenia
                  where review.ID_wypozyczenia == id
                  select review).First();
@@ -66,7 +66,7 @@ namespace WarstwaUslug
 
         public static void DeleteCzytelnikId(int id)
         {
-            var CzytelnikDoSkasowania =
+            Czytelnicy CzytelnikDoSkasowania =
                 (from review in dataContext.Czytelnicy
                  where review.ID_czytelnika == id
                  select review).First();
@@ -123,7 +123,7 @@ namespace WarstwaUslug
 
         public static int GetIdDlaCzytelnicy(string nazwisko)
         {
-            var id = (from p in dataContext.Czytelnicy
+            Int32 id = (from p in dataContext.Czytelnicy
                       where p.Nazwisko == nazwisko
                       select p.ID_czytelnika).First();
             return id;

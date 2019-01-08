@@ -25,7 +25,7 @@
             <RowDefinition Height="3*"/>
         </Grid.RowDefinitions>
         <DataGrid HorizontalAlignment="Left" Height="419" VerticalAlignment="Top" Width="792" Grid.RowSpan="7" Grid.ColumnSpan="2"/>
-        <Button Content="Dodaj Wypozyczenie" Command="{Binding AddWypozyczenieCommand}" HorizontalAlignment="Left" Margin="0,0.267,0,-0.267" Grid.Row="6" VerticalAlignment="Top" Width="792" Height="84" Grid.ColumnSpan="2"/>
+        <Button Content="Dodaj Wypozyczenie" Command="{Binding AddWypozyczenieCommand}" HorizontalAlignment="Left" Margin="0" Grid.Row="6" VerticalAlignment="Top" Width="782" Height="84" Grid.ColumnSpan="2"/>
         <Label Content="ID Czytelnika" HorizontalAlignment="Center" VerticalAlignment="Top" Height="56" Width="317"/>
         <Label Content="Sygnatura" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Top" Height="56" Width="317"/>
         <Label Content="Tytul ksiazki" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Top" Height="56" Width="317"/>

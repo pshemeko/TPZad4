@@ -40,7 +40,7 @@
                 </ListBox.ItemTemplate>
             </ListBox>
 
-            <Button Content="Pobierz Dane" Command="{Binding GetDataCommand}" Margin="0,0,255,0" Grid.Row="2" VerticalAlignment="Top" Height="60" HorizontalAlignment="Right" Width="537"/>
+            <Button Content="Pobierz Dane" Command="{Binding GetDataCommand}" Margin="0,0,255,0" Grid.Row="2" VerticalAlignment="Top" Height="60" HorizontalAlignment="Right" Width="527"/>
             <Button Content="Usun Wypozyczenie" Command="{Binding DeleteWypozyczenieCommand}" HorizontalAlignment="Left" Margin="0,1,0,0" Grid.Row="1" VerticalAlignment="Top" Width="265" Height="59"/>
             <Label Content="ID Czytelnika" HorizontalAlignment="Left" Margin="261,0,0,0" VerticalAlignment="Top" Height="49" Width="81"/>
             <Label Content="Sygnatura" HorizontalAlignment="Left" Margin="265,49,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.632,2.692" Height="49" Width="77"/>
@@ -67,9 +67,9 @@
                     </DataTemplate>
                 </ListBox.ItemTemplate>
             </ListBox>
-            <Button Content="Usun Czytelnika" Command="{Binding DeleteCzytelnikCommand}" HorizontalAlignment="Left" Margin="527,0,0,0" Grid.Row="1" VerticalAlignment="Top" Width="265" Height="60"/>
+            <Button Content="Usun Czytelnika" Command="{Binding DeleteCzytelnikCommand}" HorizontalAlignment="Left" Margin="527,0,0,0" Grid.Row="1" VerticalAlignment="Top" Width="255" Height="60"/>
             <Button Content="Dodaj Czytelnika" Command="{Binding AddWindowCzytelnikaDodaj}" HorizontalAlignment="Left" Margin="527,0,0,0" Grid.Row="2" VerticalAlignment="Top" Width="128" Height="60"/>
-            <Button Content="Dodaj Wypozyczenie" Command="{Binding AddWindowWypozyczenieDodaj}" HorizontalAlignment="Left" Margin="655,0,0,0" Grid.Row="2" VerticalAlignment="Top" Width="137" Height="60"/>
+            <Button Content="Dodaj Wypozyczenie" Command="{Binding AddWindowWypozyczenieDodaj}" HorizontalAlignment="Left" Margin="655,0,0,0" Grid.Row="2" VerticalAlignment="Top" Width="127" Height="60"/>
         </Grid>
 
     </Grid>
