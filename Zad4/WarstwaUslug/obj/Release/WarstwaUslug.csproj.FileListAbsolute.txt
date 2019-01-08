@@ -1,0 +1,21 @@
+D:\Repozytoria\git\technologie Programowania\TP4Praca\TP4\TP4\WarstwaUslug\bin\Release\WarstwaUslug.dll.config
+D:\Repozytoria\git\technologie Programowania\TP4Praca\TP4\TP4\WarstwaUslug\bin\Release\WarstwaUslug.dll
+D:\Repozytoria\git\technologie Programowania\TP4Praca\TP4\TP4\WarstwaUslug\bin\Release\WarstwaUslug.pdb
+D:\Repozytoria\git\technologie Programowania\TP4Praca\TP4\TP4\WarstwaUslug\obj\Release\WarstwaUslug.csprojAssemblyReference.cache
+D:\Repozytoria\git\technologie Programowania\TP4Praca\TP4\TP4\WarstwaUslug\obj\Release\WarstwaUslug.csproj.CoreCompileInputs.cache
+D:\Repozytoria\git\technologie Programowania\TP4Praca\TP4\TP4\WarstwaUslug\obj\Release\WarstwaUslug.dll
+D:\Repozytoria\git\technologie Programowania\TP4Praca\TP4\TP4\WarstwaUslug\obj\Release\WarstwaUslug.pdb
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaUslug\bin\Release\WarstwaUslug.dll.config
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaUslug\bin\Release\WarstwaUslug.dll
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaUslug\bin\Release\WarstwaUslug.pdb
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaUslug\obj\Release\WarstwaUslug.csprojAssemblyReference.cache
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaUslug\obj\Release\WarstwaUslug.csproj.CoreCompileInputs.cache
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaUslug\obj\Release\WarstwaUslug.dll
+C:\Users\otrembsp\Desktop\tp\TPZad4-trzecia_Wersja_Dziala\TPZad4-trzecia_Wersja_Dziala\TP4\WarstwaUslug\obj\Release\WarstwaUslug.pdb
+D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\WarstwaUslug\bin\Release\WarstwaUslug.dll.config
+D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\WarstwaUslug\bin\Release\WarstwaUslug.dll
+D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\WarstwaUslug\bin\Release\WarstwaUslug.pdb
+D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\WarstwaUslug\obj\Release\WarstwaUslug.csprojAssemblyReference.cache
+D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\WarstwaUslug\obj\Release\WarstwaUslug.csproj.CoreCompileInputs.cache
+D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\WarstwaUslug\obj\Release\WarstwaUslug.dll
+D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\WarstwaUslug\obj\Release\WarstwaUslug.pdb

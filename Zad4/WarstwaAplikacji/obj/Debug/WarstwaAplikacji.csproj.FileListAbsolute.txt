@@ -1,7 +1,0 @@
-D:\Repozytoria\git\technologie Programowania\TPZad4\Zad4\WarstwaAplikacji\obj\Debug\WarstwaAplikacji.csprojAssemblyReference.cache
-D:\Repozytoria\git\technologie Programowania\TPZad4\Zad4\WarstwaAplikacji\obj\Debug\View\Adder.g.cs
-D:\Repozytoria\git\technologie Programowania\TPZad4\Zad4\WarstwaAplikacji\obj\Debug\View\MainView.g.cs
-D:\Repozytoria\git\technologie Programowania\TPZad4\Zad4\WarstwaAplikacji\obj\Debug\App.g.cs
-D:\Repozytoria\git\technologie Programowania\TPZad4\Zad4\WarstwaAplikacji\obj\Debug\GeneratedInternalTypeHelper.g.cs
-D:\Repozytoria\git\technologie Programowania\TPZad4\Zad4\WarstwaAplikacji\obj\Debug\WarstwaAplikacji_MarkupCompile.cache
-D:\Repozytoria\git\technologie Programowania\TPZad4\Zad4\WarstwaAplikacji\obj\Debug\WarstwaAplikacji_MarkupCompile.lref
