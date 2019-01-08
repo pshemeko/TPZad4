@@ -18,12 +18,6 @@ D:\Repozytoria\git\technologie Programowania\TP4Praca\TP4\TP4\TestWarstwyUslug\b
 D:\Repozytoria\git\technologie Programowania\TP4Praca\TP4\TP4\TestWarstwyUslug\obj\Release\TestWarstwyUslug.csproj.CopyComplete
 D:\Repozytoria\git\technologie Programowania\TP4Praca\TP4\TP4\TestWarstwyUslug\obj\Release\TestWarstwyUslug.dll
 D:\Repozytoria\git\technologie Programowania\TP4Praca\TP4\TP4\TestWarstwyUslug\obj\Release\TestWarstwyUslug.pdb
-D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\TestWarstwyUslug\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
-D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\TestWarstwyUslug\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
-D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\TestWarstwyUslug\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
-D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\TestWarstwyUslug\bin\Release\pl\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
-D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\TestWarstwyUslug\bin\Release\pl\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
-D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\TestWarstwyUslug\bin\Release\pl\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
 D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\TestWarstwyUslug\bin\Release\TestWarstwyUslug.dll
 D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\TestWarstwyUslug\bin\Release\TestWarstwyUslug.pdb
 D:\Repozytoria\git\technologie Programowania\TPZad4\TP4\TestWarstwyUslug\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
